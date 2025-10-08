@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Chapter, ChecklistQuestion, OperatorResponse, DocumentReference
 
-# Register your models here.
+
+admin.site.register(Chapter)
+admin.site.register(ChecklistQuestion)
+admin.site.register(OperatorResponse)
+admin.site.register(DocumentReference)
